@@ -1,0 +1,1 @@
+# Sử dụng Use lower() để chuyển đổi chuỗi thành chữ thường
