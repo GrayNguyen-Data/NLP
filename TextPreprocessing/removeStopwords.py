@@ -5,6 +5,10 @@
 
 #  Sử dụng thư viện nltk = Natural Language Tookit
 # Lưu ý: Stopwords không hỗ trợ ngôn ngữ tiếng việt, thay vào đó ta có thể tạo 1 danh sách các stopwords riêng cho tiếng việt
+# Việc mà mình remove stopwords nhằm mục đích là để giúp mô hình tập trung vào các keywords quan trọng trong văn bản hơn
+
+# Thuật ngữ: TF-IDF (Term Frequency - Inverse Document Frequency) là phương pháp biểu diễn text thành số học,  TF: Tần xuất từ, IDF: Độ hiếm từ trong tài liệu
+
 import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
