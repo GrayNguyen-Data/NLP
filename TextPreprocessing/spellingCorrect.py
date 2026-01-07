@@ -1,4 +1,6 @@
 # Sử dụng thư viện autocorect để sửa lỗi chính tả trong văn bản
+# Trước khi sửa lỗi chính tả cần điều chỉnh các bản viết tắt về dạng đầy đủ
+
 
 from autocorrect import spell
 def correct_spelling(text):
